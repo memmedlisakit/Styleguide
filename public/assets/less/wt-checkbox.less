@@ -1,0 +1,57 @@
+.wt-checkbox{
+	&:not(:checked),
+	&:checked{
+		position: absolute;
+	  	left: -9999px;
+	}
+	&:not(:checked) + label,
+	&:checked + label {
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer;
+		/* checkbox aspect */
+		/* checked mark aspect */
+	}
+	&:not(:checked) + label:before,
+	&:checked + label:before {
+		width: 18px;
+		height: 18px;
+		border: 1.3px solid #8C8F90;
+		background: #fff;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 2px;
+		border-radius: 5px;
+	}
+	&:not(:checked) + label:after,
+	&:checked + label:after {
+		content: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxMXB4IiBoZWlnaHQ9IjlweCIgdmlld0JveD0iMCAwIDExIDkiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDExIDkiIHhtbDpzcGFjZT0icHJlc2VydmUiPjx0aXRsZT5MaW5lPC90aXRsZT48ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTAuNjExLDAuMjA4Yy0wLjQzOC0wLjMzNy0xLjA2Ni0wLjI1Ni0xLjQwMywwLjE4MUw0LjQ5Myw2LjUwMUwxLjY5NywzLjc4M2MtMC4zOTYtMC4zODUtMS4wMjktMC4zNzYtMS40MTQsMC4wMmMtMC4zODUsMC4zOTYtMC4zNzYsMS4wMjksMC4wMiwxLjQxNGwzLjYsMy41YzAuNDI4LDAuNDE2LDEuMTI0LDAuMzY3LDEuNDg5LTAuMTA1bDUuNC03QzExLjEyOSwxLjE3MywxMS4wNDksMC41NDUsMTAuNjExLDAuMjA4eiIvPjwvc3ZnPg==);
+		position: absolute;
+		top: 3px;
+		left: 4px;
+		font-size: 18px;
+		line-height: 0.8;
+	}
+	&:not(:checked) + label:after {
+		opacity: 0;
+	}
+	&:checked + label:before {
+		background-color: #34C6D9;
+		border-color: #34C6D9;
+	}
+	&:checked + label:after {
+		opacity: 1;
+	}
+	&:disabled:not(:checked) + label:before,
+	&:disabled:checked + label:before {
+		border-color: #bbb;
+		background-color: #ddd;
+	}
+	&:disabled:checked + label:after {
+  		color: #999;
+	}
+	&:disabled + label {
+ 		color: #aaa;
+	}
+}

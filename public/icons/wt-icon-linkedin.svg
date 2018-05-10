@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>A0BEFCFE-3D90-4B7E-92A2-529B2D33D6FD</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <ellipse id="path-1" cx="16.5" cy="16.5739868" rx="16.5" ry="16.5"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1.6" y="-1.6" width="36.2" height="36.2">
+            <rect x="-1.6" y="-1.52601318" width="36.2" height="36.2" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-545.000000, -888.000000)">
+            <g id="linkedin" transform="translate(547.000000, 890.000000)">
+                <use id="Oval-18-Copy-5" stroke="#19BED3" mask="url(#mask-2)" stroke-width="3.2" xlink:href="#path-1"></use>
+                <path d="M10.1789748,21.8960225 L13.3899752,21.8960225 L13.3899752,12.6881616 L10.1789748,12.6881616 L10.1789748,21.8960225 Z M11.7906517,11.3229516 C10.8011683,11.3229516 10,10.5965068 10,9.69952377 C10,8.80163682 10.8011683,8.07398682 11.7906517,8.07398682 C12.77893,8.07398682 13.5800983,8.80163682 13.5800983,9.69952377 C13.5800983,10.5965068 12.77893,11.3229516 11.7906517,11.3229516 L11.7906517,11.3229516 Z M21.1600117,21.8960225 L21.1600117,16.8672529 C21.1600117,15.8364907 20.8647335,14.8039207 19.6631317,14.8039207 C18.46153,14.8039207 17.9592557,15.8364907 17.9592557,16.8925625 L17.9592557,21.8960225 L14.7530761,21.8960225 L14.7530761,12.6881616 L17.9592557,12.6881616 L17.9592557,13.928029 C18.8026065,12.8448399 19.53568,12.3980055 20.8647335,12.3980055 C22.1946909,12.3980055 24.3568509,13.0250199 24.3568509,16.661462 L24.3568509,21.8960225 L21.1600117,21.8960225 Z" id="Fill-9" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

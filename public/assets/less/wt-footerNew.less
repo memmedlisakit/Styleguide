@@ -1,0 +1,133 @@
+.wt-footerNew{
+	background: #4b5455;
+	padding: 25px 0 35px;
+	font-family: 'Poppins',Arial;
+	&--yoga {
+		background-color: #19BED3;
+	}
+	&__wrapper {
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+		@media (min-width: 768px)  { width: 740px; }
+  		@media (min-width: 992px)  { width: 960px; }
+  		@media (min-width: 1200px) { width: 1160px;}
+  		&--yoga 				   { width: 100%;  }
+	}
+	&__menus{
+		@media (min-width: 992px) {
+			margin-left: -20px;
+			margin-right: -20px;
+		}
+	}
+	&__menus-inner {
+		padding-bottom: 28px;
+	}
+	&__menus-hr {
+		margin-bottom: 24px;
+		margin-top: 0;
+		width: calc( ~" 100% - 40px");
+		border: 1px solid #6F6F6F;
+	}
+	&__menu {
+		position: relative;
+		min-height: 1px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding: 0 20px;
+		@media (min-width: 992px) {
+			float: left;
+			width: 25%;
+    	}
+    	@media (max-width: 991px) {
+    		margin-top: 25px;
+    	}
+    	width: 100%;
+	}
+	&__socnet {
+		float: right;
+		@media (max-width: 991px) {
+			clear: both;
+			margin-top: 20px;
+			float: none;
+			padding: 0 20px;
+		}
+	}
+	&__link {
+		font-family: 'Poppins';
+		font-style: normal;
+		font-stretch: normal;
+		text-decoration: none;
+		color: white;
+		display: block;
+		font-size: 14px;   
+		line-height: 1.79;  
+		font-weight: 500;
+		&:last-child{
+			@media (min-width: 992px) {
+				margin-right: 0;
+			}
+		}
+		&:first-child{
+			@media (min-width: 992px) {
+				margin-left: 0;
+			}
+		}
+		@media (max-width: 991px) {
+			margin-bottom: 15px;
+		}
+		&--main {
+			font-family: 'Poppins';
+			font-style: normal;
+			font-stretch: normal;
+			font-size: 18px;   
+			line-height: 1.79;  
+			font-weight: 600;
+			padding-bottom: 11px;
+			margin-bottom: 17px;
+			border-bottom: 1px solid #19BED3 ;
+		}
+	}
+	&__netItem {
+		text-decoration: none;
+		@media (max-width: 991px) {
+			margin-right: 10px;
+    		margin-left: 0;
+		}
+		@media (max-width: 370px) {
+			margin-right: 0;
+		}
+	}
+	&__cr {
+		color: white;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-stretch: normal;
+		font-size: 16px;
+		line-height: 1.79;  
+		font-weight: 600;
+		float: left;
+		@media (max-width: 991px) {
+			float: none;
+			padding: 0 20px;
+		}
+	}
+	&__crLink {
+		color: white;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-stretch: normal;
+		font-size: 14px;
+		line-height: 1.79;  
+		font-weight: 500;
+		margin-left: 30px;
+		display: inline-block;
+		color: white;
+		text-decoration: none;
+		@media (max-width: 370px) {
+			display: block;
+    		margin-left: 0;
+		}
+	}
+}

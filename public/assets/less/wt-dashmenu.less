@@ -1,0 +1,51 @@
+.wt-dashmenu{
+	background-color: #4B5455;
+
+	&__wrapper{
+		margin-right: auto;
+	  	margin-left: 97px;
+	  	padding-right: 10px;
+		@media (min-width: 768px) {
+			width: 740px;
+		}
+		@media (min-width: 992px) {
+			width: 960px;
+		}
+		@media (min-width: 1200px) {
+			width: 1160px;
+		}
+	}
+	&__li{
+		display: inline-block;
+  		list-style-type: none;
+  		@media (max-width: 767px) {
+  			display: block;
+  		}
+	}
+	&__group{
+		margin: 0;
+		padding: 0;
+	}
+	&__menulink{
+		font-family: 'Poppins';
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		font-size: 14px;   
+		line-height: 46px;
+		color: white;
+  		margin-right: 37px;
+	  	text-transform: uppercase;
+	  	display: block;
+	  	text-decoration: none;
+	  	border-bottom: 3px solid transparent;
+	  	&:hover{
+	  		color: #22BFCE;
+  			border-bottom-color: #22BFCE;
+	  	}
+	  	&--active{
+	  		color: #22BFCE;
+  			border-bottom-color: #22BFCE;
+	  	}
+	}
+}

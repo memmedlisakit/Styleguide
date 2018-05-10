@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="95px" height="82px" viewBox="0 0 95 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>B288E689-938C-4D98-95F6-768E3DF4F506</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M9.96649441,38.9578752 C9.96649441,37.8533969 10.824443,36.6824346 11.8690734,36.3468597 L72.1080995,16.9957944 C74.210417,16.3204501 75.914682,17.5576349 75.914682,19.7811607 L75.914682,72.4953096 C75.914682,74.7089692 74.2182204,75.958527 72.1080995,75.2806759 L11.8690734,55.9296107 C10.818308,55.5920649 9.96649441,54.4328702 9.96649441,53.3185951 L9.96649441,38.9578752 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="65.9481876" height="58.6536053" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-1056.000000, -123.000000)">
+            <g id="share-trip" transform="translate(1047.000000, 123.000000)">
+                <circle id="Oval" fill="#D0D2D3" cx="72.5" cy="32.5" r="7.5"></circle>
+                <path d="M26.8234474,55.7799686 C26.132238,54.4365943 26.7196603,52.8169327 28.1496681,52.1557989 L33.5316506,49.6675535 C34.9553115,49.0093541 36.6733867,49.5718609 37.360962,50.9081723 L49.244426,74.0038355 C49.9356354,75.3472097 49.3482131,76.9668714 47.9182053,77.6280052 L42.5362228,80.1162506 C41.1125619,80.77445 39.3944868,80.2119432 38.7069114,78.8756318 L26.8234474,55.7799686 L26.8234474,55.7799686 Z" id="Rectangle-Copy-7" stroke="#57BDD0" stroke-width="3" transform="translate(38.033937, 64.891902) rotate(-2.000000) translate(-38.033937, -64.891902) "></path>
+                <use id="Rectangle-Copy-4" stroke="#57BDD0" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" transform="translate(42.940588, 46.138285) rotate(-26.000000) translate(-42.940588, -46.138285) " xlink:href="#path-1"></use>
+                <path d="M20.1414488,43.3546914 C19.9237259,42.8523353 20.1733878,42.3328827 20.7055541,42.1927579 L59.1685793,32.0650514 C59.697849,31.9256893 60.1269069,32.2641562 60.1269069,32.8192431 L60.1269069,35.3414806 C60.1269069,35.8973713 59.6856008,36.4529922 59.154484,36.5788602 C59.154484,36.5788602 33.7262368,42.6529584 22.1870135,44.482589 C20.3586904,44.7724833 20.1414488,43.3546914 20.1414488,43.3546914 Z" id="Rectangle-Copy-5" fill="#D0D2D3" transform="translate(40.094887, 38.277689) rotate(-26.000000) translate(-40.094887, -38.277689) "></path>
+                <path d="M90.8287777,40.5486725 C91.6657853,38.0652795 92.1265928,35.3515925 92.1265928,32.5089697 C92.1265928,22.5112845 86.4265251,14.1085006 78.7072485,11.7102246" id="Oval-4-Copy" stroke="#FF7700" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(85.416921, 26.129449) rotate(-7.000000) translate(-85.416921, -26.129449) "></path>
+                <path d="M99.1362834,44.5875 C100.239451,40.9594639 100.84124,37.0427561 100.84124,32.9576654 C100.84124,18.3435538 93.13956,5.88440263 82.3333333,1.0875" id="Oval-4-Copy-2" stroke="#FF7700" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(91.587287, 22.837500) rotate(-7.000000) translate(-91.587287, -22.837500) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

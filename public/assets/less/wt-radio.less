@@ -1,0 +1,42 @@
+.wt-radio {
+	&:not(:checked),
+	&:checked {
+		position: absolute;
+		left: -9999px;
+	}
+	&:not(:checked)+label,
+	&:checked + label {
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer;
+	}
+	&:not(:checked) + label:before,
+	&:checked + label:before {
+		width: 18px;
+		height: 18px;
+		border: 1.3px solid #8C8F90;
+		background: #fff;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 2px;
+		border-radius: 100%;
+	}
+	&:not(:checked) + label:after {
+		opacity: 0;
+	}
+	&:checked + label:before {
+		border: 6px solid #34C6D9;
+	}
+	&:disabled:not(:checked) + label:before,
+	&:disabled:checked + label:before {
+		border-color: #bbb;
+		background-color: #ddd;
+	}
+	&:disabled:checked + label:after {
+		color: #999;
+	}
+	&:disabled + label {
+		color: #aaa;
+	}
+}

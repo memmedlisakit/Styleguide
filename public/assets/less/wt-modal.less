@@ -1,0 +1,191 @@
+/** postcss-bem-linter: define wt-modal */
+.wt-modal{
+    &--fixed{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 900;
+        overflow-x: hidden;
+        overflow-y:auto;
+    }
+    &--open{
+        overflow:hidden;
+    }
+    &--closed{
+        display:none;
+    }
+    &__backdrop{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+        background:rgba(0,0,0,0.4);
+    }
+    &__form{
+        margin-bottom: 10px;
+        &--textarea{
+            min-height: 130px;
+        }
+    }
+    &__header{
+        padding:20px 25px 0 24px;
+        &--sm{
+            padding: 20px 15px 0;
+        }
+        &--nodesc{
+            border-bottom:2px solid #E2E2E2;
+        }
+    }
+    &__caption {
+        font-family: 'Poppins', 'sans-serif';
+        font-weight: 500;
+        font-size: 20px;
+        color:@color-grey;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: block;
+        text-transform: capitalize;
+        @media (max-width: 991px) {
+            font-size: 16px!important;
+        }
+        &--sm{
+            font-size: 18px;
+        }
+    }
+    &__body {
+        padding: 0 25px 0;
+        font-family: 'Poppins', 'sans-serif';
+        font-weight: 400;
+        font-size: 14px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        &--sm{
+            font-family: 'Poppins';
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.77;
+            padding: 0 15px 0;
+        }
+    }
+    &__text{
+        margin-top: 6px;
+        margin-bottom: 15px;
+        &--info{
+            margin-top: 6px;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.79;
+            color: #ff7700;
+        }
+        &--sm{
+            font-family: 'Poppins';
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.77;
+        }
+    }
+    &__button{
+        &--sm{
+             min-width: 130px;
+        }
+        &--cancel {
+            border-color: #39C2D7;
+            color: #84888C;
+            &:hover {
+                background-color: #39C2D7;
+            }
+        }
+        &--left{
+            float: left;
+        }
+        &--right {
+            margin-left: 14px;
+            @media (max-width: 991px) {
+                margin-left: 0px;
+            }
+        }
+    }
+/* Modal footer */
+    &__footer {
+        padding: 0 25px 25px;
+        text-align: right;
+        @media (max-width: 991px) {
+            text-align: inherit;
+        } 
+        &--sm{
+            padding: 0 15px 20px;
+        }
+    }
+/* Modal footer end */ 
+/* Modal alert*/
+    &__alert {
+        z-index: 999;
+        width: 335px;
+        border-radius: 5px;
+        margin: 0 auto;
+        position: relative;
+        background-color: #fff;
+        left: 0;
+        top: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        @media (max-width: 768px) {
+            margin: 30px auto;
+            position: relative;
+            left: auto;
+            top: auto;
+            /* IE 9 */
+            -webkit-transform: translate(0, 0);
+            /* Safari */
+            transform: translate(0, 0);
+            width: 90%;
+        }
+        &--sm{
+            width: 308px;
+        }
+    }
+/* Modal alert end*/
+/* Modal dialog */
+    &__dialog {
+        z-index: 999;
+        width: 617px;
+        border-radius: 5px;
+        margin: 0 auto;
+        position: relative;
+        background-color: #fff;
+        left: 0;
+        top: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        @media (max-width: 768px) {
+            margin: 30px auto;
+            position: relative;
+            left: auto;
+            top: auto;
+            /* IE 9 */
+            -webkit-transform: translate(0, 0);
+            /* Safari */
+            transform: translate(0, 0);
+            width: 90%;
+        }
+        &--md{
+            width: 400px;
+        }
+        &--sm{
+            width: 308px;
+        }
+    }
+/* Modal dialog end*/
+}
+/** postcss-bem-linter: end */

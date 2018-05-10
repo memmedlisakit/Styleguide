@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="27px" height="29px" viewBox="0 0 27 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>F0432796-1A8D-460D-BFE4-5A3E1FB3A016</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.14990625 0 10.7325 26.6352958 10.7325 26.6352958 0.14990625 1.52465931e-20 0.14990625"></polygon>
+        <polygon id="path-3" points="0 28.125 26.6355 28.125 26.6355 0.149625 0 0.149625"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-620.000000, -721.000000)">
+            <g id="culture" transform="translate(620.000000, 720.000000)">
+                <polygon id="Fill-1" fill="#05BED4" points="0.561375 29.1002625 26.073 29.1002625 26.073 27.9752625 0.561375 27.9752625"></polygon>
+                <g id="Group-14" transform="translate(0.000000, 0.975263)">
+                    <g id="Group-4">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-3"></g>
+                        <path d="M1.4229,9.6075 L25.21215,9.6075 L14.13765,1.5435 C13.64715,1.18575 12.9879,1.18575 12.498525,1.5435 L1.4229,9.6075 Z M25.654275,10.7325 L0.980775,10.7325 C0.555525,10.7325 0.1809,10.46025 0.04815,10.054125 C-0.083475,9.649125 0.0594,9.20925 0.404775,8.95725 L11.837025,0.633375 C12.7224,-0.01125 13.913775,-0.01125 14.79915,0.633375 L26.2314,8.95725 C26.57565,9.20925 26.718525,9.65025 26.5869,10.05525 C26.455275,10.46025 26.08065,10.7325 25.654275,10.7325 L25.654275,10.7325 Z" id="Fill-2" fill="#05BED4" mask="url(#mask-2)"></path>
+                    </g>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-6"></g>
+                    <polygon id="Fill-5" fill="#05BED4" mask="url(#mask-4)" points="1.576125 25.515 24.98625 25.515 24.98625 24.39 1.576125 24.39"></polygon>
+                    <polygon id="Fill-7" fill="#05BED4" mask="url(#mask-4)" points="1.612125 13.444875 25.02225 13.444875 25.02225 12.319875 1.612125 12.319875"></polygon>
+                    <polygon id="Fill-8" fill="#8C8F90" mask="url(#mask-4)" points="3.43125 21.897 4.55625 21.897 4.55625 16.032375 3.43125 16.032375"></polygon>
+                    <polygon id="Fill-9" fill="#8C8F90" mask="url(#mask-4)" points="6.208875 21.897 7.333875 21.897 7.333875 16.032375 6.208875 16.032375"></polygon>
+                    <polygon id="Fill-10" fill="#8C8F90" mask="url(#mask-4)" points="11.367 21.897 12.492 21.897 12.492 16.032375 11.367 16.032375"></polygon>
+                    <polygon id="Fill-11" fill="#8C8F90" mask="url(#mask-4)" points="14.1435 21.897 15.2685 21.897 15.2685 16.032375 14.1435 16.032375"></polygon>
+                    <polygon id="Fill-12" fill="#8C8F90" mask="url(#mask-4)" points="19.301625 21.897 20.426625 21.897 20.426625 16.032375 19.301625 16.032375"></polygon>
+                    <polygon id="Fill-13" fill="#8C8F90" mask="url(#mask-4)" points="22.07925 21.897 23.20425 21.897 23.20425 16.032375 22.07925 16.032375"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

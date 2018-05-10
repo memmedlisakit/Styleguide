@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+.bundle
+.env
+.yarnrc
+npm-debug.log
+yarn-error.log
+.bash_history

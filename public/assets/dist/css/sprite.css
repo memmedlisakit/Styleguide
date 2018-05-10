@@ -1,0 +1,551 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 9.8em 151.3em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.wt-icon-active:before {
+      background-position: 0em 0em;
+      width: 3em;
+      height: 2.6em;
+  }
+
+
+
+
+  .icon.wt-icon-add-circle:before {
+      background-position: 0em -2.6em;
+      width: 2.5em;
+      height: 2.5em;
+  }
+
+
+
+
+  .icon.wt-icon-arrow-right:before {
+      background-position: 0em -5.1em;
+      width: 0.7em;
+      height: 1.1em;
+  }
+
+
+
+
+  .icon.wt-icon-attention-blue:before {
+      background-position: 0em -6.2em;
+      width: 2em;
+      height: 2em;
+  }
+
+
+
+
+  .icon.wt-icon-attention-orange:before {
+      background-position: 0em -8.2em;
+      width: 2.5em;
+      height: 2.5em;
+  }
+
+
+
+
+  .icon.wt-icon-beach:before {
+      background-position: 0em -10.7em;
+      width: 3em;
+      height: 2.9em;
+  }
+
+
+
+
+  .icon.wt-icon-bin-grey:before {
+      background-position: 0em -13.6em;
+      width: 1.3em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.wt-icon-bin-red:before {
+      background-position: 0em -15.4em;
+      width: 1.3em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.wt-icon-calendar-blue:before {
+      background-position: 0em -17.2em;
+      width: 1.9em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.wt-icon-calendar-grey:before {
+      background-position: 0em -19em;
+      width: 1.9em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.wt-icon-city:before {
+      background-position: 0em -20.8em;
+      width: 2.8em;
+      height: 2.8em;
+  }
+
+
+
+
+  .icon.wt-icon-close:before {
+      background-position: 0em -23.6em;
+      width: 1.9em;
+      height: 1.9em;
+  }
+
+
+
+
+  .icon.wt-icon-collapce:before {
+      background-position: 0em -25.5em;
+      width: 1.5em;
+      height: 1em;
+  }
+
+
+
+
+  .icon.wt-icon-culture:before {
+      background-position: 0em -26.5em;
+      width: 2.7em;
+      height: 2.9em;
+  }
+
+
+
+
+  .icon.wt-icon-drag-active:before {
+      background-position: 0em -29.4em;
+      width: 1.4em;
+      height: 1.4em;
+  }
+
+
+
+
+  .icon.wt-icon-drag-inactive:before {
+      background-position: 0em -30.8em;
+      width: 1.4em;
+      height: 1.4em;
+  }
+
+
+
+
+  .icon.wt-icon-dropdown:before {
+      background-position: 0em -32.2em;
+      width: 1.1em;
+      height: 0.7em;
+  }
+
+
+
+
+  .icon.wt-icon-edit:before {
+      background-position: 0em -32.9em;
+      width: 1.7em;
+      height: 1.7em;
+  }
+
+
+
+
+  .icon.wt-icon-education:before {
+      background-position: 0em -34.6em;
+      width: 3.1em;
+      height: 2.7em;
+  }
+
+
+
+
+  .icon.wt-icon-email:before {
+      background-position: 0em -37.3em;
+      width: 1.7em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-embed:before {
+      background-position: 0em -38.9em;
+      width: 2.1em;
+      height: 1.5em;
+  }
+
+
+
+
+  .icon.wt-icon-expand:before {
+      background-position: 0em -40.4em;
+      width: 1.5em;
+      height: 1em;
+  }
+
+
+
+
+  .icon.wt-icon-facebook:before {
+      background-position: 0em -41.4em;
+      width: 3.7em;
+      height: 3.7em;
+  }
+
+
+
+
+  .icon.wt-icon-favorite-grey:before {
+      background-position: 0em -45.1em;
+      width: 1.7em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-favorite-red:before {
+      background-position: 0em -46.7em;
+      width: 1.5em;
+      height: 1.4em;
+  }
+
+
+
+
+  .icon.wt-icon-fb-messenger:before {
+      background-position: 0em -48.1em;
+      width: 1.7em;
+      height: 1.7em;
+  }
+
+
+
+
+  .icon.wt-icon-foodwine:before {
+      background-position: 0em -49.8em;
+      width: 2.4em;
+      height: 2.8em;
+  }
+
+
+
+
+  .icon.wt-icon-google:before {
+      background-position: 0em -52.6em;
+      width: 3.7em;
+      height: 3.7em;
+  }
+
+
+
+
+  .icon.wt-icon-hint:before {
+      background-position: 0em -56.3em;
+      width: 2.3em;
+      height: 3.1em;
+  }
+
+
+
+
+  .icon.wt-icon-instagram:before {
+      background-position: 0em -59.4em;
+      width: 3.7em;
+      height: 3.7em;
+  }
+
+
+
+
+  .icon.wt-icon-linkedin:before {
+      background-position: 0em -63.1em;
+      width: 3.7em;
+      height: 3.7em;
+  }
+
+
+
+
+  .icon.wt-icon-location:before {
+      background-position: 0em -66.8em;
+      width: 1.3em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.wt-icon-lock-small:before {
+      background-position: 0em -68.6em;
+      width: 1.3em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.wt-icon-locked-blue:before {
+      background-position: 0em -70.4em;
+      width: 2.7em;
+      height: 3em;
+  }
+
+
+
+
+  .icon.wt-icon-locked-grey:before {
+      background-position: 0em -73.4em;
+      width: 2.7em;
+      height: 3em;
+  }
+
+
+
+
+  .icon.wt-icon-manage-trip:before {
+      background-position: 0em -76.4em;
+      width: 8.9em;
+      height: 7.9em;
+  }
+
+
+
+
+  .icon.wt-icon-map-pin:before {
+      background-position: 0em -84.3em;
+      width: 2.9em;
+      height: 4.3em;
+  }
+
+
+
+
+  .icon.wt-icon-nature:before {
+      background-position: 0em -88.6em;
+      width: 3em;
+      height: 2.5em;
+  }
+
+
+
+
+  .icon.wt-icon-nightlife:before {
+      background-position: 0em -91.1em;
+      width: 3em;
+      height: 2.9em;
+  }
+
+
+
+
+  .icon.wt-icon-no:before {
+      background-position: 0em -94em;
+      width: 1.6em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-ok:before {
+      background-position: 0em -95.6em;
+      width: 2.5em;
+      height: 2.5em;
+  }
+
+
+
+
+  .icon.wt-icon-ok-big:before {
+      background-position: 0em -98.1em;
+      width: 9.8em;
+      height: 9.8em;
+  }
+
+
+
+
+  .icon.wt-icon-ok-small:before {
+      background-position: 0em -107.9em;
+      width: 1.6em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-photos:before {
+      background-position: 0em -109.5em;
+      width: 2em;
+      height: 1.7em;
+  }
+
+
+
+
+  .icon.wt-icon-pinterest-small:before {
+      background-position: 0em -111.2em;
+      width: 1.8em;
+      height: 1.7em;
+  }
+
+
+
+
+  .icon.wt-icon-plane:before {
+      background-position: 0em -112.9em;
+      width: 1.6em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-sandwich-menu:before {
+      background-position: 0em -114.5em;
+      width: 2.4em;
+      height: 1.4em;
+  }
+
+
+
+
+  .icon.wt-icon-share-blue:before {
+      background-position: 0em -115.9em;
+      width: 1.6em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-share-grey:before {
+      background-position: 0em -117.5em;
+      width: 1.6em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-share-trip:before {
+      background-position: 0em -119.1em;
+      width: 9.5em;
+      height: 8.2em;
+  }
+
+
+
+
+  .icon.wt-icon-spiritual:before {
+      background-position: 0em -127.3em;
+      width: 2.9em;
+      height: 2.5em;
+  }
+
+
+
+
+  .icon.wt-icon-star-blue:before {
+      background-position: 0em -129.8em;
+      width: 1.8em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-star-gray:before {
+      background-position: 0em -131.4em;
+      width: 1.8em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.wt-icon-twiter:before {
+      background-position: 0em -133em;
+      width: 3.7em;
+      height: 3.7em;
+  }
+
+
+
+
+  .icon.wt-icon-unlocked-blue:before {
+      background-position: 0em -136.7em;
+      width: 2.7em;
+      height: 3em;
+  }
+
+
+
+
+  .icon.wt-icon-unlocked-grey:before {
+      background-position: 0em -139.7em;
+      width: 2.7em;
+      height: 2.9em;
+  }
+
+
+
+
+  .icon.wt-icon-user:before {
+      background-position: 0em -142.6em;
+      width: 1.5em;
+      height: 1.5em;
+  }
+
+
+
+
+  .icon.wt-icon-wetravel-circle-logo:before {
+      background-position: 0em -144.1em;
+      width: 3.5em;
+      height: 3.5em;
+  }
+
+
+
+
+  .icon.wt-icon-youtube:before {
+      background-position: 0em -147.6em;
+      width: 3.7em;
+      height: 3.7em;
+  }
+
+
+
+
+

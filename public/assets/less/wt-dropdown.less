@@ -1,0 +1,211 @@
+.wt-dropdown {
+  display:inline-block;
+  padding:10px 15px;
+  min-width:200px;
+  position:relative;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border:1.3px solid #DDDEDF;
+  border-radius:5px;
+  color: #84888C;
+  background: white;
+
+  &--orange{
+    color:@color-orange;
+    border-color: @color-orange;
+  }
+
+  &--open{
+    border-radius: 5px 5px 0 0;
+
+    .wt-dropdown__caption--with-reset .wt-dropdown__reset {
+      display: inline-block;
+    }
+    .wt-dropdown__caption--with-reset .wt-dropdown__caret {
+      display: none;
+    }
+  }
+
+  &__caption{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+  }
+
+  &__options{
+    display:none;
+    position:absolute;
+    top:44px;
+    left:-1px;
+    width:calc(~"100% + 2px");
+    z-index: 111;
+    padding: 10px 0;
+    border: 1px solid #DDDEDF;
+    border-top-width: 0;
+    border-radius: 0 0 5px 5px;
+    background: white;
+
+  }
+
+  &__options--open{
+    display:block;
+  }
+
+  &__option{
+    padding:5px 15px;
+    width:100%;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#19BED3;
+    white-space:nowrap;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    text-decoration: none;
+    &:after, &:before {
+      bottom: 100%;
+      left: 10%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+    &:after {
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: #FFFFFF;
+      border-width: 8px;
+      margin-left: -8px;
+    }
+    &:before {
+      border-color: rgba(221, 222, 223, 0);
+      border-bottom-color: #DDDEDF;
+      border-width: 9px;
+      margin-left: -9px;
+    }
+
+    &:hover{
+      color: #ffffff;
+      background-color:#19BED3;
+      transition: all 0.1s ease-in-out;
+    }
+
+    &--orange{
+      border-color: @color-orange;
+      color:@color-orange;
+      &:hover{
+        background:@color-orange;
+        color:white;
+      }
+    }
+
+    &--last{
+      //border-bottom-width: 1px;
+      //border-radius: 0 0 5px 5px;
+    }
+
+
+  }
+
+  &__caret{
+    margin-top:7px;
+    float: right;
+  }
+  &__reset {
+    margin-top: 7px;
+    float: right;
+    display: none;
+  }
+
+  &__show-all {
+    border-top: 1px solid #DDDEDF;
+    margin: 10px 15px 0;
+    padding-top: 10px;
+  }
+  &__show-link {
+    cursor:pointer;
+    &--icon {
+      margin-top: -1px;
+      margin-bottom: -1px;
+      margin-right: 5px;
+    }
+  }
+
+  // modifiers
+  &--mod-full {
+    min-width: auto;
+    display: block;
+  }
+  &--mod-inline {
+    min-width: auto;
+    &.wt-dropdown--open {
+      min-width: 61.5px;
+    }
+
+    .wt-dropdown {
+      &__caret {
+        margin-left: 15px;
+      }
+      &__option{
+        &:after, &:before {
+          left:20px;
+        }
+      }
+    }
+  }
+  &--mod-restyled {
+    font-weight: normal;
+    padding: 12px 16px 13px 14px;
+
+    .wt-dropdown {
+      &__caption{
+        line-height: 15px;
+      }
+
+      &__options {
+        top: 100%;
+        margin-top: 1px;
+      }
+
+      &__caret {
+        margin-top: 4px;
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        -moz-transform: scale(0.9999);
+        border-left: 5.5px solid transparent;
+        border-right: 5.5px solid transparent;
+        border-top: 6.93px solid #19BED3;
+      }
+
+      &__reset {
+        margin-top: 3px;
+      }
+    }
+
+  }
+  &--mod-booking {
+    min-width: 257px;
+
+    @media (max-width: 991px) {
+      min-width: auto;
+      display: block;
+    }
+  }
+
+  &--account{
+    padding-top: 11px;
+    padding-bottom: 12px;
+  }
+}
